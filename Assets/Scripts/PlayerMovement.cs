@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     public float playerHeight = 2f;
-    public float movementSpeed = 6f;
+    static public float movementSpeed = 6f;
     public float movementMultiplier = 10f;
 
     [SerializeField]
