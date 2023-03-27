@@ -1201,7 +1201,7 @@ GameObject:
   - component: {fileID: 1736194303}
   - component: {fileID: 1736194306}
   - component: {fileID: 1736194305}
-  - component: {fileID: 1736194304}
+  - component: {fileID: 1736194307}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -1225,21 +1225,6 @@ Transform:
   m_Father: {fileID: 1062246053}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1736194304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736194302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 904ec7361ab18b14585daab9006f71e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSpawn: {fileID: 262432474}
-  bulletPrefab: {fileID: 3920657489752165209, guid: 5a66a7ff33807c94296c7524b9379ff9, type: 3}
-  bulletSpeed: 10
 --- !u!23 &1736194305
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1290,6 +1275,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736194302}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1736194307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736194302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599d59e22d8329344be33109188961d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpawn: {fileID: 262432474}
+  bulletPrefab: {fileID: 3920657489752165209, guid: 5a66a7ff33807c94296c7524b9379ff9, type: 3}
+  bulletSpeed: 10
+  fireRate: 1
 --- !u!1 &1898685158
 GameObject:
   m_ObjectHideFlags: 0
