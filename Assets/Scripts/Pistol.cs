@@ -8,6 +8,9 @@ public class Pistol : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 10;
 
+    public float fireRate = 0.5f;
+    private float timeSinceLastShot = 0f;
+
     void shoot()
     {
         var bullet = Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
@@ -16,9 +19,12 @@ public class Pistol : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        timeSinceLastShot += Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Space) && timeSinceLastShot >= fireRate)
         {
             shoot();
+            timeSinceLastShot = 0f;
         }
     }
 }
