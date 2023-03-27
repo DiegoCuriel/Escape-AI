@@ -5,29 +5,18 @@ using UnityEngine;
 public class SlowMo : MonoBehaviour
 {
     bool time_stop = false;
-    public Rigidbody rb;
 
     void Update()
     {
-        if (!time_stop)
+        if (!time_stop && !Input.anyKey)
         {
-            Time.timeScale = 1;
-            PlayerMovement.movementSpeed = 6;
-            
-            if (rb.velocity.magnitude == 0)
-            {
-                time_stop = true;
-            }
+            Time.timeScale = 0.1f;
+            time_stop = true;
         }
-        else
+        else if (time_stop && Input.anyKey)
         {
-            Time.timeScale = 0.01f;
-            PlayerMovement.movementSpeed = 60;
-
-            if (rb.velocity.magnitude != 0)
-            {
-                time_stop = false;
-            }
+            Time.timeScale = 1f;
+            time_stop = false;
         }
         Time.fixedDeltaTime = Time.timeScale * 0.02f;
     }
