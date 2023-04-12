@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float life = 3;
+    public string indestructibleTag = "Indestructible";
 
     void Awake()
     {
@@ -13,7 +14,13 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Destroy(collision.gameObject);
+        if (collision.gameObject.CompareTag(indestructibleTag))
+        {}
+        else
+        {
+            Destroy(collision.gameObject);
+        }
+        
         Destroy(gameObject);
     }
 }
