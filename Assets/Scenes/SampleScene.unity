@@ -1577,8 +1577,30 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Indestructible
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 012ba8782503f0c4dbb6c359f1b6313d, type: 3}
+      propertyPath: m_TagString
+      value: Indestructible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012ba8782503f0c4dbb6c359f1b6313d, type: 3}
+--- !u!1 &549276039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 012ba8782503f0c4dbb6c359f1b6313d, type: 3}
+  m_PrefabInstance: {fileID: 549276038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &549276040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549276039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.920265, y: 1.9073739, z: 5.7601757}
+  m_Center: {x: 0.0000009536743, y: 0, z: -0.000002026558}
 --- !u!1 &589964748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8593cdaee8607443a13e5ff9e1a05a6, type: 3}
