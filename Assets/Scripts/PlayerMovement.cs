@@ -31,10 +31,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask groundMask;
     float groundDistance = 0.4f;
 
+    //vidas
+    private PlayerHealth playerHealth;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        //vidas
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     private void Update()
@@ -47,6 +52,21 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
+        }
+    }
+
+    //vidas
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            playerHealth.lives--;
+            //imprimir vidas
+            Debug.Log("Vidas: " + playerHealth.lives);
+            if (playerHealth.lives <= 0)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
