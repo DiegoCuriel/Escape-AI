@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public float life = 3;
     public string indestructibleTag = "Indestructible";
+    public string WinTag = "Win";
 
     void Awake()
     {
@@ -14,7 +15,7 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag(indestructibleTag))
+        if (collision.gameObject.CompareTag(indestructibleTag) | collision.gameObject.CompareTag(WinTag))
         {}
         else
         {

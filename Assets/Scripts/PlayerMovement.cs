@@ -37,6 +37,14 @@ public class PlayerMovement : MonoBehaviour
     //sounds
     [SerializeField] private AudioSource deathSound;
 
+    // GameOver
+    public GameOverScreen GameOverScreen;
+
+    public void GameOver()
+    {
+        GameOverScreen.Setup();
+    }
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -69,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
             deathSound.Play();
             if (playerHealth.lives <= 0)
             {
-                Destroy(gameObject);
+                GameOver();
             }
         }
     }
