@@ -34,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
     //vidas
     private PlayerHealth playerHealth;
 
+    //sounds
+    [SerializeField] private AudioSource deathSound;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -63,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
             playerHealth.lives--;
             //imprimir vidas
             Debug.Log("Vidas: " + playerHealth.lives);
+            deathSound.Play();
             if (playerHealth.lives <= 0)
             {
                 Destroy(gameObject);
