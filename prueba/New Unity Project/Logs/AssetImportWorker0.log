@@ -1,0 +1,446 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2 (Build 22D49)
+Darwin version:          22.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/danielmunoz/Escape-AI/prueba/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53389
+Successfully changed project path to: /Users/danielmunoz/Escape-AI/prueba/New Unity Project
+/Users/danielmunoz/Escape-AI/prueba/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8185381120] Host "[IP] 10.43.86.138 [Port] 0 [Flags] 2 [Guid] 322724148 [EditorId] 322724148 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Juan-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8185381120] Host "[IP] 10.43.86.138 [Port] 0 [Flags] 2 [Guid] 322724148 [EditorId] 322724148 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Juan-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 51.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/danielmunoz/Escape-AI/prueba/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56469
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000806 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 50.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.364 seconds
+Domain Reload Profiling:
+	ReloadAssembly (364ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (258ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (61ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001433 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/danielmunoz/Escape-AI/prueba/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/danielmunoz/Escape-AI/prueba/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (484ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (9ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2918 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (296.4 KB). Loaded Objects now: 3381.
+Memory consumption went from 97.6 MB to 97.3 MB.
+Total: 2.203292 ms (FindLiveObjects: 0.101625 ms CreateObjectMapping: 0.033250 ms MarkObjects: 2.005625 ms  DeleteObjects: 0.062209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 568072.920367 seconds.
+  path: Assets/Nokobot
+  artifactKey: Guid(00cd423a4c0ae489aa188d333a67464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot using Guid(00cd423a4c0ae489aa188d333a67464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2074389e86c19bbb54b9af08ba9d30') in 0.004607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.691880 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun
+  artifactKey: Guid(a6196bcaf58db4e59a38ef26d0fa3726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun using Guid(a6196bcaf58db4e59a38ef26d0fa3726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f321b738a93c8d20cb58a3b61bc3a7f') in 0.001298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.209518 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs
+  artifactKey: Guid(2987812710f5d82498876f0a50b38192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs using Guid(2987812710f5d82498876f0a50b38192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489f82c9a36b3775c335db41b9b148fa') in 0.001494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.129336 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet.prefab
+  artifactKey: Guid(674adf642abf5614aae2995443c8250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet.prefab using Guid(674adf642abf5614aae2995443c8250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d9b2a7120e9d04fedb0fde4d4184af') in 0.390042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.378348 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets
+  artifactKey: Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets using Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7b575356446bc95c096a548b870329') in 0.001565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119249 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/Post Process Volume.asset
+  artifactKey: Guid(11c5769b733014f458c6c86a10e5613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/Post Process Volume.asset using Guid(11c5769b733014f458c6c86a10e5613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b19c7bbcc59bb4735509eb8343b17d9') in 0.041672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.428790 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.mat
+  artifactKey: Guid(3b9b73bdf59096b4f8ca30c0a5d98a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.mat using Guid(3b9b73bdf59096b4f8ca30c0a5d98a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9c1f299545bbacd5df5f4789203af8') in 0.676488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Black.mat
+  artifactKey: Guid(ef4deb7b6cac3794694ab402e74b3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Black.mat using Guid(ef4deb7b6cac3794694ab402e74b3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673dbf15956c6fa6fe513d7d9718b0d3') in 0.252908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Materials/45ACP_Bullet_Silver.mat
+  artifactKey: Guid(4b40dbb00777f2141a8ff7278f450856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Materials/45ACP_Bullet_Silver.mat using Guid(4b40dbb00777f2141a8ff7278f450856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c259d29cedda8094d2858a73c0b671') in 0.006172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Steel.mat
+  artifactKey: Guid(8ca21f01f2c5c9c4aa7e714faf94251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Steel.mat using Guid(8ca21f01f2c5c9c4aa7e714faf94251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac55778a1abdd29bb0172b24e7338828') in 0.006184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Steel.mat
+  artifactKey: Guid(a22ca1073de33674b8cd0036fcb92947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Steel.mat using Guid(a22ca1073de33674b8cd0036fcb92947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d658292b5658fc111f1d51f78e70a10') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.289620 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx
+  artifactKey: Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx using Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04916431b5ca94d02b10f6aa13db603c') in 0.641376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png
+  artifactKey: Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png using Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f25095b2ff43a6048f9061587c079dd') in 0.035562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png
+  artifactKey: Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png using Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa38e4c91f04dcc6dc90f2bcfc734626') in 0.004656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png
+  artifactKey: Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png using Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f616bc84dca38083e798b2e0a48978') in 0.010538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx
+  artifactKey: Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx using Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c362aebf7c865a79170520957be0b4b') in 0.008777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.987413 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs
+  artifactKey: Guid(6be84e4d7829855419c06b94e56bd135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs using Guid(6be84e4d7829855419c06b94e56bd135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714b8c0c627fd313b8b27df54c8ea66e') in 0.114628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.997112 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/README.txt
+  artifactKey: Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/README.txt using Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e0777627a47d328b4d0e4ff5b0a908') in 1.042804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.701405 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black
+  artifactKey: Guid(3c06fb9777b9bf742984737b207f4792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black using Guid(3c06fb9777b9bf742984737b207f4792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40166334867db6d2f5ee0a4eeac11ddf') in 0.001702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135485 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab
+  artifactKey: Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab using Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bac938ef3332a6dfe639bcd39ef91a') in 0.047609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab
+  artifactKey: Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab using Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4d9ee58ed83b587de0195c736b8f37') in 0.013534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.355307 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver
+  artifactKey: Guid(4692567bb400b7b43bfd7e4ec6129550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver using Guid(4692567bb400b7b43bfd7e4ec6129550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bae4e681e300b95d7944f5905e19ee') in 0.002515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125243 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab
+  artifactKey: Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab using Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4b0442def2c6ca4899cc5a81da438f') in 0.018961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab
+  artifactKey: Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab using Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a2bde8eef6eb4bbdf980cf98e4b3c3') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.761354 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs
+  artifactKey: Guid(85ffdbf9c56062e4e8c1a4740fb5adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs using Guid(85ffdbf9c56062e4e8c1a4740fb5adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf72a3b1076257dd3e7a47e9578edf7e') in 0.002029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.473026 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Casing.prefab
+  artifactKey: Guid(a737d62f4ff0b854a9d767507f039686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Casing.prefab using Guid(a737d62f4ff0b854a9d767507f039686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2db4aaad13d53297af23907f8b397b') in 0.003483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab
+  artifactKey: Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab using Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a215d7ba8e403063c89ff31822198ee1') in 0.137256 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29256f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/danielmunoz/Escape-AI/prueba/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/danielmunoz/Escape-AI/prueba/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Domain Reload Profiling:
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (158ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (42.2 KB). Loaded Objects now: 3434.
+Memory consumption went from 129.4 MB to 129.3 MB.
+Total: 2.215083 ms (FindLiveObjects: 0.117333 ms CreateObjectMapping: 0.044916 ms MarkObjects: 1.980375 ms  DeleteObjects: 0.071833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001360 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17c087000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/danielmunoz/Escape-AI/prueba/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/danielmunoz/Escape-AI/prueba/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (445ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (336ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (155ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (21.9 KB). Loaded Objects now: 3437.
+Memory consumption went from 129.3 MB to 129.3 MB.
+Total: 2.150042 ms (FindLiveObjects: 0.100833 ms CreateObjectMapping: 0.045167 ms MarkObjects: 1.987916 ms  DeleteObjects: 0.015375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
