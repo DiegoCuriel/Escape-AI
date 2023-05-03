@@ -5848,7 +5848,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   deathSound: {fileID: 1898685165}
-  GameOverScreen: {fileID: 0}
 --- !u!4 &1898685162
 Transform:
   m_ObjectHideFlags: 0
