@@ -34,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
 
     private PlayerHealth playerHealth;
 
+    public float tiempoActual = 0f;
+    public TextMesh Timer;
+
     [SerializeField] private AudioSource deathSound;
 
     private void Start()
@@ -41,7 +44,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         playerHealth = GetComponent<PlayerHealth>();
-        Invoke("perder", 5.0f);
+        Invoke("perder", 60.0f);
+        tiempoActual = 0f;
     }
 
     void perder()
@@ -60,6 +64,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+
+        tiempoActual += Time.deltaTime;
+        Timer.text = "Tiempo: " + tiempoActual.ToString("F2");
     }
 
     void OnCollisionEnter(Collision collision)

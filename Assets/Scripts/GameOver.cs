@@ -7,7 +7,7 @@ public class GameOver : MonoBehaviour
 {
     void Start()
     {
-        Invoke("CargarMenu", 3.0f);
+        Invoke("CargarMenu", 2.0f);
     }
 
     void CargarMenu()
