@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -37,14 +38,6 @@ public class PlayerMovement : MonoBehaviour
     //sounds
     [SerializeField] private AudioSource deathSound;
 
-    // GameOver
-    public GameOverScreen GameOverScreen;
-
-    public void GameOver()
-    {
-        GameOverScreen.Setup();
-    }
-
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -77,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
             deathSound.Play();
             if (playerHealth.lives <= 0)
             {
-                GameOver();
+                SceneManager.LoadScene("GameOver");
             }
         }
     }
