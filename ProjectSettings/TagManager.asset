@@ -8,6 +8,7 @@ TagManager:
   - Jugador
   - Bullet
   - Win
+  - Malo
   layers:
   - Default
   - TransparentFX
