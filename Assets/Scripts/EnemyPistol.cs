@@ -13,7 +13,6 @@ public class EnemyPistol : MonoBehaviour
 
     void shoot()
     {
-        
         Quaternion rotation = Quaternion.Euler(0, 180+transform.rotation.eulerAngles.y, 0);
         var bullet = Instantiate(bulletPrefab, bulletSpawn.position, rotation);
         bullet.GetComponent<Rigidbody>().velocity = bulletSpawn.forward * bulletSpeed;

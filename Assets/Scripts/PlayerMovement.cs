@@ -32,17 +32,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask groundMask;
     float groundDistance = 0.4f;
 
-    //vidas
     private PlayerHealth playerHealth;
 
-    //sounds
     [SerializeField] private AudioSource deathSound;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
-        //vidas
         playerHealth = GetComponent<PlayerHealth>();
     }
 
@@ -59,13 +56,11 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //vidas
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
             playerHealth.lives--;
-            //imprimir vidas
             Debug.Log("Vidas: " + playerHealth.lives);
             deathSound.Play();
             if (playerHealth.lives <= 0)
