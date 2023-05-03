@@ -7,5 +7,4 @@ public class CursorBug : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
-
 }

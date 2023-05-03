@@ -116,4 +116,13 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(moveDirection * movementSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Win"))
+        {
+            Debug.Log("Ganaste");
+            SceneManager.LoadScene("Victory");
+        }
+    }
 }
