@@ -36,12 +36,17 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private AudioSource deathSound;
 
+
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         playerHealth = GetComponent<PlayerHealth>();
         Invoke("perder", 5.0f);
+
+
     }
 
     void perder()
@@ -60,6 +65,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+
+
     }
 
     void OnCollisionEnter(Collision collision)
