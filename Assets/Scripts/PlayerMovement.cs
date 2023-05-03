@@ -41,6 +41,12 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         playerHealth = GetComponent<PlayerHealth>();
+        Invoke("perder", 5.0f);
+    }
+
+    void perder()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 
     private void Update()
